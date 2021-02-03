@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layouts/Layout'
 
 const Watch = () => {
     return (
-        <div>
+        <Layout>
             Watch
-        </div>
+        </Layout>
     )
 }
 

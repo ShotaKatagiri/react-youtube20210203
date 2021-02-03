@@ -1,13 +1,15 @@
-import React from 'react'
 import Header from '../Header/Header'
 
-const layouts = ({Header}) => {
+
+
+const layout = ({children}) => {
     return (
         <div>
             <Header />
+            {children}
         </div>
     )
 }
 
-export default layouts
+export default layout
 
